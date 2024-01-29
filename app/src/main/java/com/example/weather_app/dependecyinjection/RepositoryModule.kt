@@ -1,8 +1,6 @@
 package com.example.weather_app.dependecyinjection
 
-import com.example.weather_app.data.remote.location.DefaultLocationTracker
 import com.example.weather_app.data.remote.repository.WeatherRepositoryImplmation
-import com.example.weather_app.domain.location.locationTracker
 import com.example.weather_app.domain.repository.WeatherRepository
 import dagger.Binds
 import dagger.Module
